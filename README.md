@@ -4,8 +4,8 @@
 
 可以自定义加速服务器，旨在为WordPress中国用户提供加速，加快站点更新版本、安装升级插件主题的速度，替换Gravatar头像链接。
 
-* [x]支持替换WordPress提供的API和Download源站
-* [x]支持替换WordPress默认使用的Gravatar源站
+* [x] 支持替换WordPress提供的API和Download源站
+* [x] 支持替换WordPress默认使用的Gravatar源站
 
 ![](screenshot-1.png)
 
