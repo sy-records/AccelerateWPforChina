@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Accelerate WP for China
-Plugin URI: https://github.com/sy-records/EasyToUseWordPressInChina
+Plugin URI: https://github.com/sy-records/AccelerateWPforChina
 Description: 旨在为WordPress中国用户提供加速，加快站点更新版本、安装升级插件主题的速度，替换Gravatar头像链接。
 Version: 1.0.0
 Author: 沈唁
