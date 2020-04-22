@@ -9,7 +9,7 @@ Author URI: https://qq52o.me
 License: Apache 2.0
 */
 
-define('ETUWPIC_BASEFOLDER', plugin_basename(dirname(__FILE__)));
+define('AWFC_BASEFOLDER', plugin_basename(dirname(__FILE__)));
 
 register_activation_hook(__FILE__, 'awfc_set_options');
 function awfc_set_options()
@@ -53,7 +53,7 @@ function awfc_unblock_gravatar($avatar)
 function awfc_plugin_action_links($links, $file)
 {
     if ($file == plugin_basename(dirname(__FILE__) . '/accelerate-wp-for-china.php')) {
-        $links[] = '<a href="options-general.php?page=' . ETUWPIC_BASEFOLDER . '/accelerate-wp-for-china.php">设置</a>';
+        $links[] = '<a href="options-general.php?page=' . AWFC_BASEFOLDER . '/accelerate-wp-for-china.php">设置</a>';
     }
     return $links;
 }
@@ -92,8 +92,8 @@ function awfc_setting_page()
     ?>
     <div class="wrap" style="margin: 10px;">
         <h1>Accelerate WP for China设置</h1>
-        <p>Server 节点选择请参考 <a href="https://github.com/sy-records/EasyToUseWordPressInChina" target="_blank">Github</a></p>
-        <form name="form" method="post" action="<?php echo wp_nonce_url('./options-general.php?page=' . ETUWPIC_BASEFOLDER . '/accelerate-wp-for-china.php'); ?>">
+        <p>Server 节点选择请参考 <a href="https://github.com/sy-records/AccelerateWPforChina" target="_blank">Github</a></p>
+        <form name="form" method="post" action="<?php echo wp_nonce_url('./options-general.php?page=' . AWFC_BASEFOLDER . '/accelerate-wp-for-china.php'); ?>">
             <table class="form-table">
                 <tr>
                     <th>
